@@ -13,7 +13,7 @@ function Home({ data }) {
       <h1>Hello World</h1>
 
       {/* <pre>
-        {JSON.stringify(data.products, null, 2)}
+        {JSON.stringify(data, null, 2)}
       </pre> */}
 
       <pre>

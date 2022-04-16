@@ -5,9 +5,11 @@ export type ApolloClientContext = GetServerSidePropsContext;
 
 export const withApollo = (Component: NextPage) => {
   return function Provider(props: any) {
-    <ApolloProvider client={getApolloClient(undefined, props.apolloState)}>
-      <Component {...props} />
-    </ApolloProvider>
+    return (
+      <ApolloProvider client={getApolloClient(undefined, props.apolloState)}>
+        <Component {...props} />
+      </ApolloProvider>
+    );
   }
 }
 
