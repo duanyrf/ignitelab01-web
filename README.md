@@ -1,5 +1,7 @@
 S.O.: MacOS Monterey 12.3.1
+
 Yarn version: 1.22.18
+
 Package.json Dependencies:
 ```json
 "dependencies": {
